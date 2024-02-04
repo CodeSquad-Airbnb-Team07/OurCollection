@@ -1,4 +1,5 @@
 package interfaces;
 
-public interface List {
+public interface List<E> extends Collection<E>{
+
 }
