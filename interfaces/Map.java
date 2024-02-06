@@ -1,4 +1,4 @@
 package interfaces;
 
-public interface Map<E> extends Collection<E>{
+public interface Map<T> extends Collection<T>{
 }
