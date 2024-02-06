@@ -14,6 +14,11 @@ public class LinkedList<T> implements List<T> {
         first = edge;
     }
 
+    @Override
+    public int size() {
+        return this.size;
+    }
+
     /**
      * 맨 앞에 값을 추가
      * @param elem 추가할 값
@@ -95,30 +100,6 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public int indexOf(T elem) {
-        return search(elem);
-    }
-
-    @Override
-    public void delete(T elem) {
-        Node now = edge;
-        while (now.next.value == elem) {
-            now = now.next;
-        }
-        now.next = now.next.next;
-    }
-
-    @Override
-    public void sort() {
-
-    }
-
-    /**
-     * 해당 값의 첫 번째 위치를 반환
-     * @param elem 값
-     * @return 위치
-     */
-    @Override
-    public int search(T elem) {
         Node now = edge;
         int index = 0;
         while (now.value == elem) {
@@ -126,6 +107,20 @@ public class LinkedList<T> implements List<T> {
             index++;
         }
         return index;
+    }
+
+    @Override
+    public void sort() {
+
+    }
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public boolean contains() {
+        return false;
     }
 
     @Override

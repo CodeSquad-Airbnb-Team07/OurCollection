@@ -10,23 +10,33 @@ public class ArrayList<T> implements List<T> {
     }
 
     @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public boolean contains() {
+        return false;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
     public void add(T elem) {
 
     }
 
     @Override
-    public void delete(T elem) {
-
+    public int indexOf(T elem) {
+        return 0;
     }
 
     @Override
     public void sort() {
 
-    }
-
-    @Override
-    public int search(T elem) {
-        return 0;
     }
 
     @Override

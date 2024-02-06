@@ -6,7 +6,6 @@ public interface List<T> extends Collection<T>{
 
     void add(T elem);
 
-
     int indexOf(T elem);
 
     void sort();
