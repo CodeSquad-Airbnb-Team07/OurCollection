@@ -1,5 +1,10 @@
 package interfaces;
 
-public interface List<E> extends Collection<E>{
+
+public interface List<T> extends Collection<T>{
+    T remove(T elem);
+
+    void add(T elem);
+
 }
 
