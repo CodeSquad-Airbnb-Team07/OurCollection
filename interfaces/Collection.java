@@ -1,4 +1,4 @@
 package interfaces;
 
-public interface Collection<E> extends Iterable<E>{
+public interface Collection<T> extends Iterable<T>{
 }

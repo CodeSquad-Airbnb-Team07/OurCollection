@@ -1,7 +1,7 @@
 package interfaces;
 
-public interface List<E> extends Collection<E>{
-    E remove(E elem);
+public interface List<T> extends Collection<T>{
+    T remove(T elem);
 
-    void add(E elem);
+    void add(T elem);
 }
