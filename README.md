@@ -47,8 +47,6 @@ node?
 
 #### PriorityQueue
 
-
-
 ### Stack
 
 1. push
@@ -62,6 +60,11 @@ node?
 1. get
 2. put
 3. contains
+
+#### HashMap
+
+1. hash
+
 
 ---
 
